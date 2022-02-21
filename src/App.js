@@ -13,9 +13,10 @@ function App() {
     if (category === "all"){
       return(setItemsList(menuData))
     }
-
-    const newItemList = menuData.filter((item) => item.category === category);
-    setItemsList(newItemList)
+    else {
+      const newItemList = menuData.filter((item) => item.category === category);
+      return(setItemsList(newItemList));
+    }
   }
 
 
