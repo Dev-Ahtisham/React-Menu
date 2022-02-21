@@ -1,11 +1,11 @@
-const menu = [
+const menuData = [
     {
       id: 1,
-      title: 'buttermilk pancakes',
+      title: 'quarantine buddy',
       category: 'breakfast',
-      price: 15.99,
-      img: './images/item-1.jpeg',
-      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      price: 16.99,
+      img: './images/item-9.jpeg',
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
       id: 2,
@@ -63,13 +63,5 @@ const menu = [
       img: './images/item-8.jpeg',
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
-    {
-      id: 9,
-      title: 'quarantine buddy',
-      category: 'shakes',
-      price: 16.99,
-      img: './images/item-9.jpeg',
-      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-    },
   ];
-  export default menu;
+  export default menuData;
